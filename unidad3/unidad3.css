@@ -1,0 +1,22 @@
+body {
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #4287f5;
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    background-color: #215703;
+    color: #9ed97e;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.parrafo-violeta {
+    color: #b21eba;
+    text-align: right;
+    font-weight: bold;
+}
