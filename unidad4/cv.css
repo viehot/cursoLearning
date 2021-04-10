@@ -70,6 +70,22 @@ header {
     background-color: #ff66ff;
 }
 
+.school_left {
+    width: 425px;
+    height: 200px;
+    margin: 30px 40px 30px 15px;
+    background-color: #660033;
+    float: left;
+}
+
+.school_right {
+    width: 425px;
+    height: 200px;
+    margin: 30px 15px 30px 40px;
+    background-color: #990099;
+    float: left;
+}
+
 #code {
     height: 400px;
     background-color: #66ccff;
