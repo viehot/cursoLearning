@@ -9,6 +9,20 @@ header {
     background-color: #0000cc;
 }
 
+.marca {
+    width: 140px;
+    height: 80px;
+    background-color: #6699ff;
+    float: left;
+}
+
+.btn_nav {
+    width: 440px;
+    height: 80px;
+    background-color: #0099ff;
+    float: right;
+}
+
 #about {
     height: 400px;
     background-color: #99ff99;
