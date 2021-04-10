@@ -90,3 +90,32 @@ header {
     height: 400px;
     background-color: #66ccff;
 }
+
+.code_data--left {
+    width: 300px;
+    height: 300px;
+    margin: 85px 30px 15px 0px;
+    background-color: #000066;
+    float: left;
+}
+
+.code_data--center {
+    width: 300px;
+    height: 300px;
+    margin: 85px 0px 15px 0px;
+    background-color: #0000ff;
+    float: left;
+}
+
+.code_data--right {
+    width: 300px;
+    height: 300px;
+    margin: 85px 0px 15px 30px;
+    background-color: #3333cc;
+    float: left;
+}
+
+footer {
+    height: 300px;
+    background-color: black;
+}
