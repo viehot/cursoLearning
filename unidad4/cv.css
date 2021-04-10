@@ -1,0 +1,31 @@
+header, section, footer {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    height: 80px;
+    background-color: #0000cc;
+}
+
+#about {
+    height: 400px;
+    background-color: #99ff99;
+}
+
+#work {
+    height: 400px;
+    background-color: #ff9933;
+}
+
+#school {
+    height: 800px;
+    background-color: #ff66ff
+    ;
+}
+
+#code {
+    height: 400px;
+    background-color: #66ccff;
+}
