@@ -28,6 +28,22 @@ header {
     background-color: #99ff99;
 }
 
+.perfil {
+    width: 290px;
+    height: 300px;
+    margin: 50px 0px 50px 35px;
+    background-color: #006600;
+    float: left;
+}
+
+.perfil_data {
+    width: 600px;
+    height: 300px;
+    margin: 50px 35px 50px 0px;
+    background-color:#003300;
+    float: right;
+}
+
 #work {
     height: 400px;
     background-color: #ff9933;
