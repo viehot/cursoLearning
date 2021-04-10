@@ -49,10 +49,25 @@ header {
     background-color: #ff9933;
 }
 
+.empresa {
+    width: 260px;
+    height: 315px;
+    margin-top: 85px;
+    background-color: #ff3300;
+    float: left;
+}
+
+.empresa_data {
+    width: 700px;
+    height: 315px;
+    margin-top: 85px;
+    background-color: #cc0000;
+    float: left;
+}
+
 #school {
     height: 800px;
-    background-color: #ff66ff
-    ;
+    background-color: #ff66ff;
 }
 
 #code {
