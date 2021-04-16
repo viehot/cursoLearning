@@ -1,5 +1,6 @@
 body {
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    margin-top: 0;
 }
 
 header, section, footer {
@@ -12,6 +13,8 @@ header {
     height: 80px;
     background-image: linear-gradient(to right, #11998e
     , #38ef7d);
+    position:sticky;
+    top: 0;
 }
 
 .marca {
@@ -22,14 +25,35 @@ header {
 
 .marca h1 {
     text-align: center;
-    color: #23e684;
+    color: white;
 }
 
 .btn_nav {
-    width: 440px;
+    width: 441px;
     height: 80px;
-    background-color: #0099ff;
     float: right;
+}
+
+.btn_nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.btn_nav ul li {
+    display: inline;
+}
+
+.btn_nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    padding: 25px 21px;
+    font-size: 25px;
+}
+
+.btn_nav ul li a:hover {
+    background-color: #31a554;
 }
 
 #about {
