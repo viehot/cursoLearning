@@ -58,7 +58,8 @@ header {
 
 #about {
     height: 400px;
-    background-color: #99ff99;
+    background-image: url(img/25336.jpg);
+    background-size: cover;
 }
 
 .perfil {
@@ -67,6 +68,17 @@ header {
     margin: 50px 0px 50px 35px;
     background-color: #006600;
     float: left;
+}
+
+.perfil_img {
+    width: 200px;
+    height: 200px;
+    margin: 45px 50px;
+}
+
+.perfil_img--foto {
+    width: 100%;
+    border-radius: 100%;
 }
 
 .perfil_data {
