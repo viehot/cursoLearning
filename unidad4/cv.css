@@ -65,16 +65,16 @@ header {
 }
 
 .perfil {
-    width: 290px;
-    height: 300px;
-    margin: 50px 0px 50px 35px;
-    background-color: #006600;
+    width: 240px;
+    height: 250px;
+    margin: 75px 0px 75px 110px;
+    background-color: #eceaea;
     float: left;
 }
 
 .perfil_img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin: 45px 50px;
 }
 
@@ -84,11 +84,25 @@ header {
 }
 
 .perfil_data {
-    width: 600px;
-    height: 300px;
-    margin: 50px 35px 50px 0px;
-    background-color:#003300;
+    width: 500px;
+    height: 250px;
+    margin: 75px 110px 75px 0px;
+    background-color:#eceaea;
     float: right;
+    color: rgb(56, 56, 56);
+}
+
+.perfil_data h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.perfil_data--right {
+    padding-left: 40px;
+}
+
+.perfil_data--left {
+    padding-left: 20px;
 }
 
 #work {
