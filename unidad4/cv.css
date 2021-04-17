@@ -1,0 +1,166 @@
+body {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    margin-top: 0;
+}
+
+header, section, footer {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    height: 80px;
+    background-image: linear-gradient(to right, #11998e
+    , #38ef7d);
+    position:sticky;
+    top: 0;
+}
+
+.marca {
+    width: 140px;
+    height: 80px;
+    float: left;
+}
+
+.marca h1 {
+    text-align: center;
+    color: white;
+}
+
+.btn_nav {
+    width: 441px;
+    height: 80px;
+    float: right;
+}
+
+.btn_nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.btn_nav ul li {
+    display: inline;
+}
+
+.btn_nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    padding: 25px 21px;
+    font-size: 25px;
+}
+
+.btn_nav ul li a:hover {
+    background-color: #31a554;
+}
+
+#about {
+    height: 400px;
+    background-image: url(img/25336.jpg);
+    background-size: cover;
+}
+
+.perfil {
+    width: 290px;
+    height: 300px;
+    margin: 50px 0px 50px 35px;
+    background-color: #006600;
+    float: left;
+}
+
+.perfil_img {
+    width: 200px;
+    height: 200px;
+    margin: 45px 50px;
+}
+
+.perfil_img--foto {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.perfil_data {
+    width: 600px;
+    height: 300px;
+    margin: 50px 35px 50px 0px;
+    background-color:#003300;
+    float: right;
+}
+
+#work {
+    height: 400px;
+    background-color: #ff9933;
+}
+
+.empresa {
+    width: 260px;
+    height: 315px;
+    margin-top: 85px;
+    background-color: #ff3300;
+    float: left;
+}
+
+.empresa_data {
+    width: 700px;
+    height: 315px;
+    margin-top: 85px;
+    background-color: #cc0000;
+    float: left;
+}
+
+#school {
+    height: 800px;
+    background-color: #ff66ff;
+}
+
+.school_left {
+    width: 425px;
+    height: 200px;
+    margin: 30px 40px 30px 15px;
+    background-color: #660033;
+    float: left;
+}
+
+.school_right {
+    width: 425px;
+    height: 200px;
+    margin: 30px 15px 30px 40px;
+    background-color: #990099;
+    float: left;
+}
+
+#code {
+    height: 400px;
+    background-color: #66ccff;
+}
+
+.code_data--left {
+    width: 300px;
+    height: 300px;
+    margin: 85px 30px 15px 0px;
+    background-color: #000066;
+    float: left;
+}
+
+.code_data--center {
+    width: 300px;
+    height: 300px;
+    margin: 85px 0px 15px 0px;
+    background-color: #0000ff;
+    float: left;
+}
+
+.code_data--right {
+    width: 300px;
+    height: 300px;
+    margin: 85px 0px 15px 30px;
+    background-color: #3333cc;
+    float: left;
+}
+
+footer {
+    height: 300px;
+    background-color: black;
+}
