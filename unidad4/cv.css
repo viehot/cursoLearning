@@ -152,38 +152,45 @@ header {
     background-color:#eceaea;
 }
 
-.code_data--left {
+#code h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 15px;
+    color: rgb(56, 56, 56);
+}
+
+.code_data--left, .code_data--center, .code_data--right {
     width: 230px;
-    height: 300px;
-    margin: 85px 35px 15px 65px;
-    background-color: #000066;
+    height: 280px;
+    margin: 30px 35px 15px 65px;
+    background-image: linear-gradient(to bottom, #11998e
+    , #38ef7d);
     float: left;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
 }
 
 .code_data--center {
-    width: 230px;
-    height: 300px;
-    margin: 85px 35px 15px 35px;
-    background-color: #0000ff;
-    float: left;
+    margin: 30px 35px 15px 35px;
 }
 
 .code_data--right {
-    width: 230px;
-    height: 300px;
-    margin: 85px 35px 15px 65px;
-    background-color: #3333cc;
-    float: left;
+    margin: 30px 65px 15px 35px;
 }
 
 .code_date--imagen {
     width: 150px;
     height: 150px;
+    padding: 0px 40px;
 }
 
 .code_date--imagen img {
     width: 100%;
+}
+
+.code_date--dato {
+    color:white;
+    text-align: center;
 }
 
 footer {
