@@ -280,3 +280,102 @@ footer {
         padding: 0px 15px;
     }
 }
+
+@media all and (max-width: 599px) {
+
+    header, section, footer {
+        width: 90%;
+    }
+    
+    header {
+        height: auto;
+        position:relative;
+    }
+    
+    .marca, .btn_nav {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+
+    .marca h1 {
+        margin: 0px;
+        padding: 20px 0px;
+    }
+
+    .btn_nav ul li {
+        display: block;
+    }
+    
+    .btn_nav ul li a {
+        display: block;
+        text-align: center;
+        width: auto;
+        padding: 20px 0px;
+    }
+    
+    #about, #code {
+        height: auto;
+    }
+    
+    .perfil, .perfil_data {
+        width: 80%;
+        height: auto;
+        margin: 0% 10%;
+        float: none;
+        display: inline-block;
+        font-size: 10px;
+    }
+    
+    .perfil_img, .code_date--imagen {
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        padding: 5%;
+    }
+   
+    .perfil_data h1 {
+        font-size: 30px;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .perfil_data--right, .perfil_data--left {
+        padding-left: 20px;
+    }
+    
+    #work, #school {
+        height: auto;
+        margin:auto;
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .empresa, .empresa_data, .school_left, .school_right {
+        width: 80%;
+        height: 100px;
+        margin: auto;
+        float: none;
+    }
+   
+    #code h1 {
+        font-size: 30px;
+        text-align: center;
+        margin: auto;
+        padding-top: 2%;
+
+    }
+    
+    .code_data--left, .code_data--center, .code_data--right {
+        width: 30%;
+        height: auto;
+        margin: 2% 1%;
+        float: none;
+        display: inline-block;
+    }
+
+    .code_date--dato h2 {
+        font-size: 15px;
+    }
+}
