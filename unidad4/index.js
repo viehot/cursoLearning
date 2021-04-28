@@ -1,0 +1,5 @@
+var nombre = prompt("Cual es su nombre?")
+var fecha = prompt("Cual es su fecha de cumpleños?")
+var pais = prompt("De que pais sos?")
+var mail = prompt("Cual es tu mail?")
+var mascota = prompt("Cual fue tu primer mascota?")
