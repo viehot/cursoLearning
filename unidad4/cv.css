@@ -30,14 +30,14 @@ header {
 }
 
 .marca h1 {
-    text-align: center;
+    margin-top: 13px;
     color: white;
 }
 
 .iconMode {
     border: none;
     background-color: transparent;
-    padding: 24px;
+    padding: 25px;
     margin: 0px;
 }
 
@@ -75,7 +75,7 @@ header {
     display: inline-block;
     text-decoration: none;
     color:white;
-    padding: 25px 21px;
+    padding: 21.5px 21px;
     font-size: 25px;
 }
 
