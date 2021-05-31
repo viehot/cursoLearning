@@ -56,7 +56,7 @@ header {
 }
 
 .btn_nav {
-    width: 462px;
+    width: 595px;
     height: 80px;
     float: right;
 }
@@ -191,12 +191,17 @@ header {
     background-color:#eceaea;
 }
 
-#code h1, #school h1 {
+#code h1, #school h1, #nuevo h1 {
     font-size: 30px;
     text-align: center;
     margin: 0px;
     padding-top: 15px;
     color: rgb(56, 56, 56);
+}
+
+#nuevo h1 {
+    margin-bottom: 15px;
+    padding: 0px;
 }
 
 .code_data--left, .code_data--center, .code_data--right {
@@ -220,11 +225,7 @@ header {
 .code_date--imagen {
     width: 150px;
     height: 150px;
-    padding: 0px 40px;
-}
-
-.code_date--imagen img {
-    width: 100%;
+    margin: auto;
 }
 
 .code_date--dato {
@@ -233,23 +234,23 @@ header {
 }
 
 #nuevo {
-    height: 200px;
-    background-color: white;
+    height: 380px;
+    background-color: #eceaea;
 }
 
 .nuevo1 {
-    height: 200px;
-    background-color: red;
+    height: auto;
+    margin-top: 15px;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+    border:#38ef7d 2px groove;
 }
 
-.nuevo2 {
-    height: 200px;
-    background-color: purple;
+form select,form input, form label {
+    margin-top: 5px;
 }
 
-.nuevo3 {
-    height: 200px;
-    background-color: green;
+form button {
+    margin-bottom: 10px;
 }
 
 footer {
@@ -266,14 +267,19 @@ footer {
     .marca {
         width: 120px;
     }
+
+    header button {
+        padding: 25px 15px;
+        width: 60px;
+    }
   
     .btn_nav {
-        width: 358px;
+        width: 380px;
     }
 
     .btn_nav ul li a {
-        margin-left: 4px;
-        padding: 29px 20px;
+        margin-left: 2px;
+        padding: 29px 10px;
         font-size: 15px;
     }
    
