@@ -279,18 +279,25 @@ footer {
         width: 120px;
     }
 
-    header button {
-        padding: 25px 15px;
-        width: 60px;
+    .marca h1 {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .iconMode {
+        margin-left: 10px;
+        padding: 25px 0px;
+        width: 40px;
     }
   
     .btn_nav {
-        width: 380px;
+        width: 390px;
     }
 
     .btn_nav ul li a {
+        margin-top: 10px;
         margin-left: 2px;
-        padding: 29px 10px;
+        padding: 28px 10px;
         font-size: 15px;
     }
    
