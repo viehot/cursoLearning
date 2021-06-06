@@ -10,12 +10,6 @@ function mostrarSchool (bloque) {
     }
 }
 
-function ocultarSchool (bloque) {
-    var bloqueSchool = document.getElementsByClassName(bloque)
-    for(var i = 0; i<bloqueSchool.length; i++) {
-        bloqueSchool[i].style.display = 'none'
-    }
-}
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function () {
     'use strict'
