@@ -335,14 +335,8 @@ footer {
         background-color: #ff9933;
     }
     
-    .school_left {
-        width: 260px;
-        margin: 30px 20px 30px 10px;
-    }
-    
-    .school_right {
-        width: 260px;
-        margin: 30px 10px 30px 20px;
+    .school_block {
+        width: 600px;
     }
     
     .code_data--left, .code_data--center, .code_data--right {
@@ -394,7 +388,31 @@ footer {
         width: auto;
         padding: 20px 0px;
     }
-    
+
+    #school h1 {
+        margin-bottom: 10px;
+    }
+
+    .school_block {
+        width: 100%;
+        height: 300px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .school_center {
+        display: block;
+        margin: auto;
+    }
+
+    .school_right {
+        width: 90%;
+        height: 100px;
+        margin: 10px auto;
+        display: block;
+    }
+
     #about, #code {
         height: auto;
     }
@@ -433,7 +451,7 @@ footer {
         align-items: center;
     }
     
-    .empresa, .empresa_data, .school_left, .school_right {
+    .empresa, .empresa_data {
         width: 80%;
         height: 100px;
         margin: auto;
