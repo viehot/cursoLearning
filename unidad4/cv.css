@@ -369,13 +369,14 @@ footer {
 
     .marca h1 {
         margin: 0px;
-        padding: 20px 0px;
+        padding: 10px 0px;
     }
 
     .iconMode {
         display: block;
         width: 100%;
         padding: 15px;
+        margin: 0px;
     }
 
     .btn_nav ul li {
@@ -386,7 +387,8 @@ footer {
         display: block;
         text-align: center;
         width: auto;
-        padding: 20px 0px;
+        margin-top: 5px;
+        padding: 10px 0px;
     }
 
     #school h1 {
