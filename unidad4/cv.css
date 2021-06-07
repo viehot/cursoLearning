@@ -21,6 +21,7 @@ header {
     , #38ef7d);
     position:sticky;
     top: 0;
+    z-index: 1000;
 }
 
 .marca {
@@ -143,17 +144,47 @@ nav button i {
 
 #work {
     height: auto;
-    background-color: #ff9933;
+    background-color: #eceaea;
+}
+
+#carouselJobs {
+    margin-top: 10px;
+}
+
+#carouselJobs button span {
+    color: black;
+    font-size: 50px;
 }
 
 .empresa {
-    height: 300px;
-    background-color: red;
+    height: 250px;
+    background-color: white;
+    border-top:#38ef7d 3px groove;
+    border-left:#38ef7d 3px groove;
+    border-bottom:#38ef7d 3px groove;
+}
+
+.empresa .empresa-img {
+    height: 200px;
+    margin: 25px auto;
 }
 
 .empresa_data {
-    height: 300px;
-    background-color: yellow;
+    height: 250px;
+    background-color: white;
+    border-top:#38ef7d 3px groove;
+    border-right:#38ef7d 3px groove;
+    border-bottom:#38ef7d 3px groove;
+}
+
+.empresa_data h2 {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.empresa_data p {
+    text-align: left;
+    font-size: 20px;
 }
 
 #school {
@@ -265,7 +296,7 @@ form button {
 }
 
 footer {
-    height: 300px;
+    height: 20px;
     background-color: black;
 }
 
@@ -328,11 +359,6 @@ footer {
     
     .perfil_data--left {
         padding-left: 9px;
-    }
-    
-    #work {
-        height: 400px;
-        background-color: #ff9933;
     }
     
     .school_block {
